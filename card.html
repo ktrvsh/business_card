@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizytówka</title>
+    <style>
+      .photo img {
+        width: 90px;
+        float: left;
+      }
+      body {
+        background: url(https://cdn.pixabay.com/photo/2015/02/24/13/23/buildings-647400_1280.jpg)
+          no-repeat center center fixed;
+        background-size: cover;
+      }
+      .container {
+        margin: 60px auto;
+        padding: 30px;
+        background-color: black;
+        width: 400px;
+        height: 160px;
+        color: silver;
+      }
+      .username,
+      .email,
+      .download-CV {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+      .username span {
+        border-bottom: 2px solid olive;
+        padding-bottom: 4px;
+      }
+      .email {
+        font-size: 16px;
+      }
+      .download-CV a {
+        color: olive;
+        font-size: 12px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo">
+        <span><img src="mojezdj.jpg" alt="Moje zdjęcie" /></span>
+      </div>
+      <p class="username">
+        <span>Natalia Moczydłowska</span>
+      </p>
+      <p class="email">
+        <span>n.moczydlowska0@gmail.com</span>
+      </p>
+      <p class="download-CV">
+        <span><a href="#">Download CV</a></span>
+      </p>
+    </div>
+  </body>
+</html>
